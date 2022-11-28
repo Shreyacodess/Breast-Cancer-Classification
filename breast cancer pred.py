@@ -10,6 +10,10 @@ breast_cancer_model = pickle.load(open('/Users/divyanshpalia/Desktop/Multiple Di
 breast_cancer_model=pickle.load(open('/Users/divyanshpalia/Desktop/Multiple Disease Prediction System/saved models/breast_cancer_dataset.sav', 'rb'))
 
 # sidebar for navigation
+#shreya is sexy
+#shreya is smart 
+#shreya is gorgeous
+#shryea is my wife
 with st.sidebar:
     st.title('Breast Cancer Prediction System')
     selected=st.selectbox('Choose the disease :',('Breast Cancer Prediction','Breast Cancer Prediction'))
